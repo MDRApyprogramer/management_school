@@ -93,7 +93,7 @@ except sqlite3.OperationalError:
 
 # -----------------------------------------------------------------------------------------------------------------------#
 
-class student:  # this is class for management defines function (add, show, update, delete) for student
+class Student:  # this is class for management defines function (add, show, update, delete) for student
     def __init__(self, fname, lname, age, gpa, grade):
         self.fname = fname
         self.lname = lname
@@ -153,7 +153,7 @@ class student:  # this is class for management defines function (add, show, upda
 
 # -----------------------------------------------------------------------------------------------------------------------#
 
-class teachers:  # this is class for management defines function (add, show, update, delete) for teacher
+class Teachers:  # this is class for management defines function (add, show, update, delete) for teacher
     def __init__(self, fname, lname, age, lesson, grade, message, pay):
         self.fname = fname
         self.lname = lname
@@ -225,7 +225,7 @@ class teachers:  # this is class for management defines function (add, show, upd
 
 # -----------------------------------------------------------------------------------------------------------------------#
 
-class gpa:  # this is class for management defines function (add, show, update, delete) for Grade point average
+class Gpa:  # this is class for management defines function (add, show, update, delete) for Grade point average
 
     def __init__(self, name, Science, Math, Persian, Writing, dictation, Arabic, Heavenly_messages, BT, Quran, social,
                  English, Physical_education):
@@ -295,7 +295,7 @@ class Ws:  # this is class for management defines function (add, show, update, d
 
 # -----------------------------------------------------------------------------------------------------------------------#
 
-class management():  # this is class for management defines function (add, show, update, delete) for management
+class Management():  # this is class for management defines function (add, show, update, delete) for management
     def __init__(self, fname='management first name', lname='management last name', age='management age', message='...',
                  pay=200):
         self.fname = fname
